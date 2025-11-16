@@ -17,7 +17,7 @@ export function PageLoader() {
         </h1>
         
         <p className="mt-4 text-lg font-semibold text-foreground animate-fade-in-up animation-delay-500">
-          La réussite désormais entre vos mains
+          for IUGET
         </p>
 
       </div>
