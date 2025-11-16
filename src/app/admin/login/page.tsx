@@ -22,7 +22,7 @@ export default function AdminLoginPage() {
     setIsLoading(true);
     setError('');
 
-    if (secret === 'LuvviX') {
+    if (secret === 'AndyChristLud') {
       localStorage.setItem('admin-secret', 'LuvviX');
       router.push('/admin');
     } else {
