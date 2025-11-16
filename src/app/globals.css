@@ -8,63 +8,83 @@ body {
 
 @layer base {
   :root {
-    --background: 40 33% 98%;
-    --foreground: 20 14.3% 4.1%;
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
+    --background: 0 0% 100%; /* Blanc */
+    --foreground: 215 100% 15%; /* Bleu foncé */
+    --card: 0 0% 100%; /* Blanc */
+    --card-foreground: 215 100% 20%;
+
     --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
-    --primary: 36 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 45 100% 95%;
-    --secondary-foreground: 36 80% 25%;
-    --muted: 40 33% 94%;
-    --muted-foreground: 25 5.3% 44.7%;
-    --accent: 45 100% 80%;
-    --accent-foreground: 36 80% 25%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 40 20% 88%;
-    --input: 40 20% 90%;
-    --ring: 36 100% 50%;
+    --popover-foreground: 215 100% 20%;
+
+    --primary: 215 100% 50%; /* Bleu */
+    --primary-foreground: 0 0% 100%; /* Blanc */
+
+    --secondary: 0 100% 95%; /* Rouge très clair */
+    --secondary-foreground: 0 100% 40%; /* Rouge plus foncé */
+
+    --muted: 0 0% 95%; /* Blanc cassé */
+    --muted-foreground: 215 20% 40%;
+
+    --accent: 215 100% 85%; /* Bleu clair */
+    --accent-foreground: 215 100% 30%;
+
+    --destructive: 0 100% 50%; /* Rouge */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 30% 85%; /* Bleu très pâle */
+    --input: 215 30% 92%;
+    --ring: 215 100% 50%; /* Bleu */
+
     --radius: 0.8rem;
-    --sidebar-background: 40 33% 96%;
-    --sidebar-foreground: 20 14.3% 15%;
-    --sidebar-primary: 36 100% 50%;
+
+    /** Sidebar **/
+    --sidebar-background: 0 0% 97%; /* Blanc */
+    --sidebar-foreground: 215 100% 20%;
+    --sidebar-primary: 215 100% 50%; /* Bleu */
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 100%;
-    --sidebar-accent-foreground: 36 100% 50%;
-    --sidebar-border: 40 20% 88%;
-    --sidebar-ring: 36 100% 50%;
+    --sidebar-accent-foreground: 215 100% 50%;
+    --sidebar-border: 215 30% 85%;
+    --sidebar-ring: 215 100% 50%;
   }
+
   .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 40 33% 98%;
-    --card: 20 14.3% 6.1%;
-    --card-foreground: 40 33% 98%;
-    --popover: 20 14.3% 4.1%;
-    --popover-foreground: 40 33% 98%;
-    --primary: 36 100% 50%;
-    --primary-foreground: 20 14.3% 4.1%;
-    --secondary: 36 100% 10%;
-    --secondary-foreground: 40 33% 98%;
-    --muted: 24 5.4% 12%;
-    --muted-foreground: 24 5.4% 63.9%;
-    --accent: 45 100% 80%;
-    --accent-foreground: 36 80% 25%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 24 5.4% 12%;
-    --input: 24 5.4% 12%;
-    --ring: 36 100% 50%;
-    --sidebar-background: 20 14.3% 6.1%;
-    --sidebar-foreground: 40 33% 98%;
-    --sidebar-primary: 36 100% 50%;
-    --sidebar-primary-foreground: 20 14.3% 4.1%;
-    --sidebar-accent: 20 14.3% 10.1%;
-    --sidebar-accent-foreground: 40 33% 98%;
-    --sidebar-border: 24 5.4% 12%;
-    --sidebar-ring: 36 100% 50%;
+    --background: 215 100% 8%; /* Bleu très sombre */
+    --foreground: 0 0% 100%; /* Blanc */
+
+    --card: 215 100% 12%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 215 100% 6%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 215 100% 50%; /* Bleu */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 100% 20%; /* Rouge sombre */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 215 20% 20%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 215 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 80% 40%; /* Rouge foncé */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 215 100% 50%;
+
+    --sidebar-background: 215 100% 10%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 215 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 100% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 215 20% 20%;
+    --sidebar-ring: 215 100% 50%;
   }
 }
 
