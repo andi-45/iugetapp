@@ -1,0 +1,7 @@
+import type { LucideIcon } from 'lucide-react';
+export declare const Rocket: LucideIcon;
+export declare const BrainCircuit: LucideIcon;
+export declare const Users: LucideIcon;
+export declare const LifeBuoy: LucideIcon;
+export declare const Copy: LucideIcon;
+export declare const BookCopy: LucideIcon;
