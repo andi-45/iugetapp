@@ -7,8 +7,8 @@ import { BrainCircuit, BookOpen, Users, Award, Code } from "lucide-react";
 const features = [
     {
         icon: <BookOpen className="h-8 w-8 text-primary" />,
-        title: "Contenu Aligné sur le Curriculum",
-        description: "Accédez à des cours et fiches de révision conformes au programme officiel du MINESEC pour le secondaire général."
+        title: "Resource academic",
+        description: "Accédez à des cours et fiches de travaux dirige, des epreuves et aussi dautre documents academiques conformes au programme officiel du MINESEC pour un enseigement superieur ici a IUGET."
     },
     {
         icon: <BrainCircuit className="h-8 w-8 text-primary" />,
@@ -31,7 +31,7 @@ export default function AboutPage() {
         </div>
         <h1 className="text-4xl md:text-5xl font-headline font-bold text-gray-800 dark:text-white">À Propos d'OnBuch</h1>
         <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-          Votre allié d'étude intelligent, conçu pour transformer la manière dont les élèves du secondaire au Cameroun apprennent et réussissent.
+          Votre allié d'étude intelligent, conçu pour transformer la manière dont vous apprenez vous assurer une réussite.
         </p>
       </header>
 
