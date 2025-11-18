@@ -18,7 +18,7 @@ const features = [
     {
         icon: <Users className="h-8 w-8 text-primary" />,
         title: "Communauté d'Étudiants",
-        description: "Connectez-vous avec des camarades de votre classe, collaborez et apprenez ensemble pour une meilleure motivation."
+        description: "Une communauté étudiante ou chaque connexion facilité l'apprentissage et inspire la motivation."
     }
 ];
 
