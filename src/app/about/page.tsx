@@ -8,7 +8,7 @@ const features = [
     {
         icon: <BookOpen className="h-8 w-8 text-primary" />,
         title: "Resource academic",
-        description: "Accédez à des cours et fiches de travaux dirige, des epreuves et aussi dautre documents academiques conformes au programme officiel du MINESUP pour un enseigement superieur ici a IUGET."
+        description: "Accédez à des cours et fiches de travaux dirige, des epreuves et aussi d'autre documents academiques conformes au programme officiel du MINESUP."
     },
     {
         icon: <BrainCircuit className="h-8 w-8 text-primary" />,
